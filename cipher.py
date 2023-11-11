@@ -27,7 +27,7 @@ alpha_shift = {
     "z": "e",
 }
 
-plaintext = str(input("Please type a sentence:")).lower()
+plaintext = str(input("Please type a sentence:"))
 encrypted = ""
 
 for letter in plaintext:
@@ -36,4 +36,4 @@ for letter in plaintext:
     else:
         encrypted += letter
       
-print("Your encrypted text is:", encrypted)
+print("The encrypted sentence is:", encrypted)
